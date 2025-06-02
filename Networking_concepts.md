@@ -132,3 +132,32 @@ It ensures standardized communication, allowing different systems to understand 
 TCP/IP - Transmission Control Protocol / Internet Protocol <br>
 TCP operates at the transport layer of the OSI model. It establishes a connection between two devices before data exchange, ensuring reliable and ordered delivery of information. <br>
 It breakes data into packets, assigns sequence numbers, and uses acknowledgment messages to guarantee delivery. It's connection oriented, meaning it sets up, maintains and terminates a connection for data exchange.<br>
+![image](https://github.com/user-attachments/assets/bd19acb1-0a0e-4f97-a08f-3883a063f93c)
+<br>
+UDP (User Datagram Protocol) - also pertates at the transport layer. UDP is a connectionless protocol that offers minimal services. It's like a 'fire and forget' approach for data transmission. <br>
+It sends data without establishing a connection, providing low-latency communication. However, it doesn't guarantee delivery or order, making it suitable for real-time applications like video streaming or online gaming.
+![image](https://github.com/user-attachments/assets/4be82f69-e502-44e6-b3f5-8feea138472b)
+
+IP (Internet Protocol) - IP functions at the network layer and is a fundamental part of the TCP/IP protocol suite. It handles addresssing and routing to ensure data packets reach their intended destinations.<br>
+IP assigns unique IP addresses to devices and users routing tables to direct data across networks. It's responsible for the logical connection between different devices on the Internet. <br>
+In short, TCP ensures reliable and ordered communication with a connection-oriented approach, UDP prioritizes speed and is connectionless, and IP maganages the addressing and routing for data packets across networks. Togeher the form the backbone of internet communication.
+
+### Ports
+Ports are communication endpoints that allow diferent services on a device to send and receive data.<br>
+Ports are important in configuring networking settings, defining rules for firewalls, managing container communication, orchestrating services and troubleshooting network issues.
+![image](https://github.com/user-attachments/assets/112f6a2d-c729-4552-b65c-48de444ee4da)
+
+### Subnetting (CIDR)
+Knowledge of IP adressing, subnetting and CIDR notation is crucial for designing and managing IP address spaces effectively.
+Subnetting is a technique used in computer networking to divide a larger IP network into smaller, more manageable sub-networks or subnets
+![image](https://github.com/user-attachments/assets/1578faf3-9a84-4e25-be85-1a90b2b85f37)
+
+
+
+
+
+
+
+
+
+
