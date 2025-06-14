@@ -211,3 +211,12 @@ drwxr-x--- 2 pete penguingroup   4096 Jul 27 12:41   Videos
 Commands have things called flags (or arguments or options, whatever you want to call it) to add more functionality. See how we added -a and -l, well you can add them both together with -la. The order of the flags determines which order it goes in, most of the time this doesn’t really matter so you can also do ls -al and it would still work.
 
 $ ls -la
+
+### mkdir (make directory)
+Creates new folder 'mkdir new_folder' will create folder named 'new_folder'
+
+### touch
+Creates new file 'touch new_file.txt', will creates new text file named 'new_file'
+
+### cat
+Use it to open / run file 'cat new_file.txt'
